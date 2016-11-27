@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ffec40</color>
+
+    <!-- login / registration colors -->
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#497bb9</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+    <!-- custom colors baby -->
+    <color name="parcel_back">#b9d7e8</color>
+    <color name="offer_back">#eff66b</color>
+    <color name="parcel_edittext">#c7b597</color>
+    <color name="parcel_back_dk">#b6a17a</color>
+    <color name="edittext_back">#E9E9E9</color>
+    <color name="green_button">#72D688</color>
+    <color name="blue_button">#A5BFCC</color>
+    <color name="brightblue_button">#6ca1f5</color>
+    <color name="red_button">#F57C6C</color>
+
+    <color name="offer_wait">#77e2c99d</color>
+    <color name="offer_action">#23d507</color>
+    <color name="active_wait">#93b4c6cf</color>
+    <color name="active_action">#23d507</color>
+
+</resources>

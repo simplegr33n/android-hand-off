@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "452895208788",
+    "firebase_url": "https://handoff-7cc26.firebaseio.com",
+    "project_id": "handoff-7cc26",
+    "storage_bucket": "handoff-7cc26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452895208788:android:82792d43fe02e571",
+        "android_client_info": {
+          "package_name": "ca.ggolda.handoff"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452895208788-sifvuf3hvbiqnbm4055f5lr86tnhghpk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.ggolda.handoff",
+            "certificate_hash": "8F0E70C5AB28DC36FC61A9940F16874E4D3283D5"
+          }
+        },
+        {
+          "client_id": "452895208788-ue6in3a91aklvqs5bvl8d6egl77hn4ia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5ZaA9ZnsWTSPBx68vzRBZJl5r4DjoZRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452895208788-ue6in3a91aklvqs5bvl8d6egl77hn4ia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
