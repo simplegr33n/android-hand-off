@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HandOff.iml" filepath="$PROJECT_DIR$/HandOff.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hand-off.iml" filepath="$PROJECT_DIR$/hand-off.iml" />
     </modules>
   </component>
 </project>
