@@ -1,4 +1,4 @@
-# Android HandOff Item-Sharing App
+# <img src="https://github.com/simplegr33n/android-hand-off/blob/master/screenshots/logos/logo.png" width="32"> Android HandOff Item-Sharing App
 
 <hr>
 

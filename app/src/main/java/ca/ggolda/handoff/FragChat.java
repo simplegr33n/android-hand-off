@@ -102,7 +102,6 @@ public class FragChat extends Fragment {
 
         mUsername = user.getDisplayName();
 
-
         mFirebaseStorage = FirebaseStorage.getInstance();
 
         mMessagesDatabaseReference = mFirebaseDatabase.getReference().child("messages");
