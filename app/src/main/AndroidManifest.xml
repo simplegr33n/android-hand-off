@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ca.ggolda.handoff">
+    package="ca.ggolda.lendit">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="ca.ggolda.handoff.MainSearchActivity"
+            android:name="ca.ggolda.lendit.MainSearchActivity"
             android:label="@string/app_name"
             android:launchMode="singleTop"
             android:windowSoftInputMode="stateHidden"
@@ -27,25 +27,25 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="ca.ggolda.handoff.MainProfileActivity" android:screenOrientation="portrait"/>
+        <activity android:name="ca.ggolda.lendit.MainProfileActivity" android:screenOrientation="portrait"/>
 
-        <activity android:name="ca.ggolda.handoff.MainHistoryActivity" android:screenOrientation="portrait"/>
+        <activity android:name="ca.ggolda.lendit.MainHistoryActivity" android:screenOrientation="portrait"/>
 
-        <activity android:name="ca.ggolda.handoff.MainProfileUserActivity" android:screenOrientation="portrait"/>
+        <activity android:name="ca.ggolda.lendit.MainProfileUserActivity" android:screenOrientation="portrait"/>
 
-        <activity android:name="ca.ggolda.handoff.MainSetUsernameActivity" android:screenOrientation="portrait"/>
+        <activity android:name="ca.ggolda.lendit.MainSetUsernameActivity" android:screenOrientation="portrait"/>
 
         <!-- keep in portait until you TODO: resolve losing image asset on rotate -->
-        <activity android:name="ca.ggolda.handoff.MainAddConfirmActivity" android:screenOrientation="portrait"/>
-        <activity android:name="ca.ggolda.handoff.MainAddActivity" android:screenOrientation="portrait"
+        <activity android:name="ca.ggolda.lendit.MainAddConfirmActivity" android:screenOrientation="portrait"/>
+        <activity android:name="ca.ggolda.lendit.MainAddActivity" android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden"/>
 
 
 
         <!-- lend contract related activities -->
-        <activity android:name="ca.ggolda.handoff.MainOfferActivity" android:screenOrientation="portrait"/>
+        <activity android:name="ca.ggolda.lendit.MainOfferActivity" android:screenOrientation="portrait"/>
 
-        <activity android:name="ca.ggolda.handoff.MainTransactionsActivity" android:screenOrientation="portrait"/>
+        <activity android:name="ca.ggolda.lendit.MainTransactionsActivity" android:screenOrientation="portrait"/>
 
 
 
