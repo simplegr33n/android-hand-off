@@ -53,8 +53,6 @@ public class MainSearchActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
 
-
-        mFirebaseAuth = FirebaseAuth.getInstance();
         mFirebaseDatabase = FirebaseDatabase.getInstance();
         mItemsDatabaseReference = mFirebaseDatabase.getReference().child("items");
         setUpFirebaseAdapter();
@@ -65,8 +63,6 @@ public class MainSearchActivity extends AppCompatActivity {
         mFirebaseAuth = FirebaseAuth.getInstance();
         FirebaseUser user = mFirebaseAuth.getCurrentUser();
 
-
-
         mAuthStateListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
@@ -74,8 +70,6 @@ public class MainSearchActivity extends AppCompatActivity {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
                     UserID = user.getUid();
-                    //user signed in
-                    OnSignedInInitialise(user.getDisplayName());
                     // Check if user has createdAt set, if not, set
                     mUsersDatabaseReference.child(UserID).child("createdAt").
                             addListenerForSingleValueEvent(new ValueEventListener() {
@@ -129,7 +123,6 @@ public class MainSearchActivity extends AppCompatActivity {
 
                 } else {
                     //user signed out
-                    OnSignedOutCleanUp();
                     startActivityForResult(
                             AuthUI.getInstance()
                                     .createSignInIntentBuilder()
@@ -165,7 +158,7 @@ public class MainSearchActivity extends AppCompatActivity {
                     });
 
 
-            // Check if user has createdAt set, if not, set
+            // Check if user has name set, if not, set
             mUsersDatabaseReference.child(UserID).child("name").
                     addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
@@ -281,11 +274,6 @@ public class MainSearchActivity extends AppCompatActivity {
 
     }
 
-    private void OnSignedInInitialise(String username) {
-    }
-
-    private void OnSignedOutCleanUp() {
-    }
 
     private void setUpFirebaseAdapter() {
         mFirebaseAdapter = new FirebaseRecyclerAdapter<InstanceItem, FirebaseSearchViewHolder>
